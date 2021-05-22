@@ -75,3 +75,15 @@ function sequentialSizes(val) {
     }
     return answer;
   }
+
+  // ternary conditional
+function checkEqual(a, b) {
+    return (a === b ? "Equal" : "Not Equal");
+}
+  
+  // can chain multiple ternary conditionals
+function checkSign(num) {
+    return (num > 0) ? "positive"
+        : (num < 0) ? "negative"
+        : "zero"
+}
